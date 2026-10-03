@@ -10,6 +10,8 @@ pipeline {
             }
         }
 
+        // Jenkins CI/CD Task 2
+
         stage('Test') {
             steps {
                 echo 'Running tests...'
